@@ -8,7 +8,6 @@ import numpy as np
 import pandas as pd
 ############################################################################################################
 
-
 """
 Design philosophy:
 - Most geometric operations operate on DataFrames column-wise.
