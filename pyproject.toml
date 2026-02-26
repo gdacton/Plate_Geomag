@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plate-geomag"
+version = "0.1.0"
+description = "Plate tectonic, geographic, geomagnetic, and paleomagnetic calculation utilities."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name="Gary Acton" }
+]
+dependencies = [
+  "numpy",
+  "pandas"
+]
+
+[tool.setuptools]
+packages = ["plate_geomag"]
